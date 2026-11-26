@@ -1,0 +1,37 @@
+# Brand Single Source of Truth (SSOT)
+
+> Master verifiable facts repository for `seo/kb/`.  
+> Agents writing content, comparisons, or schema must pull verifiable facts strictly from this document.
+
+---
+
+## 1. Company & Founding Facts
+- **Official Brand Name:** Acme Technologies
+- **Legal Entity:** Acme Technologies, Inc.
+- **Founded:** 2023 in San Francisco, CA
+- **Funding / Status:** Series A ($14M led by Premier Capital)
+- **Primary Website:** `https://acmetech.com`
+
+---
+
+## 2. Product Architecture & Core Mechanics
+- **Platform Name:** Acme CloudSync Engine
+- **Underlying Technology:** Rust-based event loop with io_uring and memory-mapped NVMe storage
+- **Measured Latency:** p99 read latency of **4.2ms** across 12 global edge regions
+- **Throughput:** Tested to sustain **65,000 requests/sec** per standard 8-node cluster
+- **Supported Protocols:** HTTP/3, WebSockets, gRPC, and REST
+
+---
+
+## 3. Verified Pricing & Unit Economics
+- **Developer Tier:** Free up to 10,000 monthly operations, 1GB storage
+- **Pro Tier:** $49 / month, includes 500,000 operations, $0.02 per additional 1,000 operations
+- **Enterprise Tier:** Starting at $990 / month, custom SLAs, SOC2 Type II compliance reports, dedicated support engineer
+- **Egress Policy:** Zero network egress fees on all standard tiers
+
+---
+
+## 4. Compliance & Security Certifications
+- **SOC2 Type II:** Audited annually by Presidio (latest audit: Sept 2026)
+- **HIPAA Compliance:** Supported with signed Business Associate Agreements (BAA) on Enterprise tier
+- **Data Residency:** Options for US-only, EU-only (GDPR compliant), or Global Edge routing

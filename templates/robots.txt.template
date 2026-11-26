@@ -1,0 +1,45 @@
+# ==========================================
+# Robots.txt — Autonomous Crawl Configuration
+# Canonical Standard for Search & AI Visibility
+# ==========================================
+
+User-agent: *
+Allow: /
+
+# Prevent indexing and crawling of private, authentication, or checkout routes
+Disallow: /admin/
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /dashboard/
+Disallow: /search
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# ==========================================
+# Generative Search & AI Agents (GEO Access)
+# Explicitly permitted to ensure visibility in AI Overviews, Perplexity, and ChatGPT Search
+# ==========================================
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# ==========================================
+# XML Sitemaps (Canonical Index)
+# ==========================================
+Sitemap: https://yourdomain.com/sitemap.xml

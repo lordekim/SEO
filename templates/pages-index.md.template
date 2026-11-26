@@ -1,0 +1,20 @@
+# High-Priority Pages Index (`seo/kb/pages-index.md`)
+
+> Mapping of primary money pages, comparison guides, and pillar articles to required proof files.
+
+---
+
+## Money Pages & Required Proof Files
+
+| Page URL | Intent | Target Query | Primary Proof Receipt | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| `/pricing` | Transactional | "cloudsync pricing" | `brand-ssot.md` (unit economics) | Verified |
+| `/platform` | Commercial | "real-time multi-region sync" | `proof/benchmarks/latency-bench-2026.md` | In Progress |
+| `/vs/competitor-x` | Commercial | "acme vs competitor x" | `proof/customers/invoicekit-migration.md` | Verified |
+| `/blog/distributed-caching` | Informational | "distributed caching patterns" | `proof/benchmarks/failover-bench.md` | Verified |
+
+---
+
+## Proof Gap Registry
+- [ ] Need verified customer migration quote for e-commerce Shopify store.
+- [ ] Need benchmark comparing Rust io_uring throughput vs Go net/http.
